@@ -60,3 +60,12 @@ runcpp()
 ```sh
 $ echo -e "if [ -f ~/.shortcuts.sh ]; then\n  . ~/.shortcuts.sh\nfi"
 ```
+
+**Usage:**
+```sh
+# default CPP standart is C++17
+$ runcpp main.cpp
+
+# can specify other versions
+$ runcpp main.cpp c++14
+```
