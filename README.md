@@ -58,7 +58,7 @@ runcpp()
 - **Step 3:** Import `.shortcuts.sh` scripts from `.bashrc`
 
 ```sh
-$ echo -e "if [ -f ~/.shortcuts.sh ]; then\n  . ~/.shortcuts.sh\nfi"
+$ echo -e "if [ -f ~/.shortcuts.sh ]; then\n  . ~/.shortcuts.sh\nfi" > ~/.bashrc
 ```
 
 **Usage:**
