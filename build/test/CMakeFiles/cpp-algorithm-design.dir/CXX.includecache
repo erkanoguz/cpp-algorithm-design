@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/eoguz/Workspace/Erkan/Works/C++/my_github_repos/cpp-algorithm-design/src/linked_list/linked_list_basic.hpp
+iostream
+-
+
+/home/eoguz/Workspace/Erkan/Works/C++/my_github_repos/cpp-algorithm-design/test/linked_list_basic_test.cpp
+gtest/gtest.h
+/home/eoguz/Workspace/Erkan/Works/C++/my_github_repos/cpp-algorithm-design/test/gtest/gtest.h
+../src/linked_list/linked_list_basic.hpp
+/home/eoguz/Workspace/Erkan/Works/C++/my_github_repos/cpp-algorithm-design/src/linked_list/linked_list_basic.hpp
+iterator
+-
+vector
+-
+
+/home/eoguz/Workspace/Erkan/Works/C++/my_github_repos/cpp-algorithm-design/test/main.cpp
+gtest/gtest.h
+-
+gtest/gtest.h
+-
+
