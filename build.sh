@@ -27,6 +27,9 @@ fi
 
 conan install -s build_type=$BUILD_TYPE "${CONAN_DIR}"
 
-cmake .. -DCMAKE_BUILD_TYPE=$BUILD_TYPE
+echo "${CONAN_DIR}/conan_toolchain.cmake"
+
+cmake .. -DCMAKE_BUILD_TYPE=$BUILD_TYPE \
+         -DCMAKE_TOOLCHAIN_FILE="${BUILD_DIR}conan_toolchain.cmake"
 cmake --build "$BUILD_DIR"
 
