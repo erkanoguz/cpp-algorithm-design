@@ -17,6 +17,7 @@ TEST_F(LinkedListBasicTest, Append_1){
 
     // Act
     append(root, 10);
+    EXPECT_EQ(1,1);
     EXPECT_TRUE( root->value == 10);
 }
 
